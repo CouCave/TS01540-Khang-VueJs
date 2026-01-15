@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <title>Bài 2</title>
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light border">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-energy-pilates.png" alt="" style="width:150px;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa-solid fa-list"></i> Bài viết
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa-solid fa-film"></i> Video
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa-solid fa-circle-info"></i> Giới thiệu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa-solid fa-calendar-days"></i> Sự kiện
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link">Tiếng Việt</a></li>
+                        <li class="nav-item"><a class="nav-link">Tiếng Anh</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4">
+            <div class="row">
+
+                <div class="col-12 p-2">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="text-info mb-3">Về tôi</h2>
+
+                    <div class="card blog">
+                        <img src="images/avatar.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Giới thiệu bản thân</h5>
+                            <p class="card-text">
+                                TS. Trần Hoàng, Tổ chức tư vấn sức khỏe quốc tế độc lập <br>
+                                Châm ngôn: Ta không được chọn nơi mình sinh ra, nhưng ta được chọn cách mình sẽ sống
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs mt-4" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#register">Đăng ký</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#login">Đăng nhập</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-3">
+
+                        <div id="register" class="container tab-pane active"><br>
+
+                            <h4 class="mb-3">Form Đăng Ký Thông Tin</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="mb-2">
+                                            <label class="m-2">Họ và Tên</label>
+                                            <input class="form-control" placeholder="Nhập họ và tên">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Email</label>
+                                            <input class="form-control" placeholder="Nhập email">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Số điện thoại</label>
+                                            <input class="form-control" placeholder="Nhập số điện thoại">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Mật khẩu</label>
+                                            <input class="form-control" placeholder="Nhập mật khẩu">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Xác nhận mật khẩu</label>
+                                            <input class="form-control" placeholder="Xác nhận mật khẩu">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Giới tính:</label>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="nam"
+                                                    checked>
+                                                <label class="form-check-label" for="nam">Nam</label>
+                                            </div>
+
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="gender" id="nu">
+                                                <label class="form-check-label" for="nu">Nữ</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Ngôn ngữ</label>
+                                            <select class="form-select">
+                                                <option>Tiếng Việt</option>
+                                                <option>Tiếng Anh</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="agree">
+                                                <label class="form-check-label" for="agree">
+                                                    Tôi đồng ý với các điều khoản và điều kiện
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <button class="btn btn-primary">Đăng ký</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="login" class="container tab-pane fade"><br>
+
+                            <h4 class="mb-3">Đăng nhập</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label class="m-2">Email</label>
+                                            <input class="form-control" placeholder="Nhập email">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="m-2">Mật khẩu</label>
+                                            <input class="form-control" placeholder="Nhập mật khẩu">
+                                        </div>
+
+                                        <button class="btn btn-primary">Đăng nhập</button>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-sm-8">
+                    <h2 class="text-info mb-3">Blog của tôi</h2>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card news">
+                                <div class="card-body border-bottom">
+                                    <h5 class="card-title">
+                                        Phương pháp tập Pilates cho các chị em trong năm 2026
+                                        <small class="text-secondary">
+                                            <i class="bi bi-chat-left-fill"></i> 142
+                                        </small>
+                                    </h5>
+                                </div>
+
+                                <div class="card-body pt-3">
+                                    <img src="images/tap-piltes.jpg" class="card-img-top rounded" alt="">
+                                    <p class="card-text pt-3">
+                                        Ngoài việc giúp duy trì vóc dáng, cải thiện sự linh hoạt,
+                                        dẻo dai cho người tập, Pilates giúp cơ bắp và các khớp mọc dài hơn, kéo giãn
+                                        hơn...
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-group ">
+
+                                <li class="list-group-item d-flex">
+                                    <img src="images/corevalue.jpg" class="rounded me-3" width="80">
+                                    <div>
+                                        <b>Biết ơn đời, đời sẽ thương ta</b><br>
+                                        <small class="text-secondary">
+                                            <i class="bi bi-chat-left-fill"></i> 982
+                                        </small>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item d-flex">
+                                    <img src="images/orange_300x300.jpg" class="rounded me-3" width="80">
+                                    <div>
+                                        <b>9 tác dụng tuyệt vời của quả cam</b><br>
+                                        <small class="text-secondary">
+                                            <i class="bi bi-chat-left-fill"></i> 234
+                                        </small>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item d-flex">
+                                    <img src="images/sesameoil_300x300.jpg" class="rounded me-3" width="80">
+                                    <div>
+                                        <b>10 công dụng bất ngờ từ dầu dừa</b><br>
+                                        <small class="text-secondary">
+                                            <i class="bi bi-chat-left-fill"></i> 432
+                                        </small>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item d-flex">
+                                    <img src="images/spinach_300x300.jpg" class="rounded me-3" width="80">
+                                    <div>
+                                        <b>Lợi ích khi ăn rau mỗi ngày</b><br>
+                                        <small class="text-secondary">
+                                            <i class="bi bi-chat-left-fill"></i> 994
+                                        </small>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-info px-3" type="button">Xem thêm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg-dark text-white text-center py-4 mt-4">© Copyright by FPT Polytechnic</footer>
+</body>
+
+</html>
