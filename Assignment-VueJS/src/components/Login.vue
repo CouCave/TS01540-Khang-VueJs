@@ -17,7 +17,7 @@
                         <input class="form-control" placeholder="Nhập mật khẩu">
                     </div>
 
-                    <button class="btn btn-success">Đăng nhập</button>
+                    <button class="btn btn-outline-success">Đăng nhập</button>
                 </form>
             </div>
         </div>

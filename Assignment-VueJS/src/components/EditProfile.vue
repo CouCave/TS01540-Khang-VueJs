@@ -11,7 +11,7 @@
                         <input class="form-control mb-2" placeholder="Họ tên" />
                         <input class="form-control mb-2" placeholder="Email" />
                         <input type="password" class="form-control mb-2" placeholder="Mật khẩu mới" />
-                        <button class="btn btn-success">Cập nhật</button>
+                        <button class="btn btn-outline-success">Cập nhật</button>
                     </div>
                 </form>
             </div>

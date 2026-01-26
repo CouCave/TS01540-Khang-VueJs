@@ -125,10 +125,10 @@
                                 <h6>Danh sách các bình luận:</h6>
                                 <ul class="mb-0">
                                     <li>
-                                        <b>Bình An:</b> Bài viết rất hữu ích
+                                        <b>Phú (05/01/2026):</b> Very good!
                                     </li>
                                     <li>
-                                        <b>Bình An:</b> Cảm ơn những chia sẻ bổ ích
+                                        <b>Nam (05/01/2026):</b> Thanks for the post!
                                     </li>
                                 </ul>
                             </div>

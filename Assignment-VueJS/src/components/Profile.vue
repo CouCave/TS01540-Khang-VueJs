@@ -48,7 +48,7 @@
             
             <div class="text-center mb-3">
               <img
-                src="https://via.placeholder.com/120"
+                src="@/assets/images/ezgif.com-gif-maker.jpg"
                 class="rounded-circle"
                 width="120"
                 height="120"
@@ -61,12 +61,13 @@
 
             <hr>
 
-            <p><strong>Số điện thoại:</strong> 0123456789</p>
+            <p><strong>Số điện thoại:</strong> 0908339635</p>
             <p><strong>Giới tính:</strong> Nam</p>
+            
 
-            <!-- Nút -->
+            
             <div class="d-flex justify-content-between mt-3">
-              <button class="btn btn-outline-primary">
+              <button class="btn btn-outline-info">
                 Chỉnh sửa
               </button>
               <button class="btn btn-outline-danger">

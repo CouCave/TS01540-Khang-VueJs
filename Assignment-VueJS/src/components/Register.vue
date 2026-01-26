@@ -54,7 +54,7 @@
                         </div>
                     </div>
 
-                    <button class="btn btn-success">Đăng ký</button>
+                    <button class="btn btn-outline-success">Đăng ký</button>
                 </form>
 
             </div>

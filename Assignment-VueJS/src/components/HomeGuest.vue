@@ -32,21 +32,6 @@
       <div class="row">
 
         <div class="col-sm-4">
-          <h3 class="text-info mt-5">Chuyên mục</h3>
-          <ul class="list-group mt-3">
-            <li class="list-group-item active bg-info d-flex justify-content-between align-items-center">
-              <a class="nav-link text-white">Chế độ tập</a>
-              <span class="badge bg-primary rounded-pill">12</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <a class="nav-link">Chế độ dinh dưỡng</a>
-              <span class="badge bg-primary rounded-pill">15</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              <a class="nav-link">Cẩm nang cuộc sống</a>
-              <span class="badge bg-primary rounded-pill">99</span>
-            </li>
-          </ul>
           <div class="card news mt-3">
             <div class="card-body border-bottom">
               <h3 class="card-title text-info mb-0">

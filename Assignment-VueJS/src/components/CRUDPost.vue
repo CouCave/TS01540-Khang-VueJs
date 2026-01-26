@@ -14,7 +14,7 @@
                 </div>
                 <input type="file" class="form-control mb-2" />
                 
-                <button class="btn btn-info mb-3">Đăng bài</button>
+                <button class="btn btn-outline-info mb-3">Đăng bài</button>
             </div>
         </div>
     </div>
