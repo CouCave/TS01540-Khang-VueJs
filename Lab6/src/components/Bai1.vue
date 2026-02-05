@@ -1,6 +1,5 @@
 <template>
   <div class="container mt-4">
-    <h3>Bài 1: Xếp loại học lực</h3>
     <div class="mb-3">
       <label>Nhập điểm trung bình:</label>
       <input type="number" v-model.number="score" class="form-control" placeholder="Nhập điểm..." min="0" max="10">
@@ -20,5 +19,5 @@
 <script setup>
 import { ref } from 'vue';
 
-const score = ref(null); // [cite: 19]
+const score = ref(null); 
 </script>

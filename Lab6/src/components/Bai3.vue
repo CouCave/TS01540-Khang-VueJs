@@ -21,17 +21,17 @@ const items = ref([
   {
     title: '8 loại rau củ quả giàu canxi',
     content: 'Canxi là khoáng chất cần thiết đối với cơ thể người. Có nhiều cách để bổ sung canxi, trong đó bổ sung qua đường ăn uống là cách tốt nhất.',
-    image: 'https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322529/foods-high-in-calcium.jpg' // Ảnh minh họa
+    image: 'https://thanhnien.mediacdn.vn/Uploaded/ngocthanh/2015_10_25/trai-cay_CZLU.jpg?width=500'
   },
   {
     title: 'Các loại gia vị tốt cho sức khỏe',
     content: 'Một số loại gia vị cung cấp nhiều polyphenol chống oxy hóa cao hơn các loại gia vị quen thuộc khác.',
-    image: 'https://post.healthline.com/wp-content/uploads/2020/09/spices-732x549-thumbnail.jpg' // Ảnh minh họa
+    image: 'https://thanhnien.mediacdn.vn/Uploaded/ngocthanh/2015_10_25/trai-cay_CZLU.jpg?width=500' 
   },
   {
     title: '9 loại đậu bổ dưỡng nên dùng nhiều',
     content: 'Đậu lăng, đậu nành, đậu phộng, đậu Hà Lan giàu chất xơ, protein cùng nhiều vitamin và khoáng chất giúp giảm lượng đường trong máu, tốt cho tim.',
-    image: 'https://domf5oio6qrcr.cloudfront.net/medialibrary/9677/GettyImages-520412466.jpg' // Ảnh minh họa
+    image: 'https://thanhnien.mediacdn.vn/Uploaded/ngocthanh/2015_10_25/trai-cay_CZLU.jpg?width=500' 
   }
 ]);
 </script>

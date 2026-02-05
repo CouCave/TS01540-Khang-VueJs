@@ -1,6 +1,5 @@
 <template>
   <div class="container mt-4">
-    <h3>Bài 2: Xác định mùa</h3>
     <label>Nhập tháng của bạn:</label>
     <input type="number" v-model.number="month" class="form-control mb-2" />
     

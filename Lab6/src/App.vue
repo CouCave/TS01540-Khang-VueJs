@@ -1,47 +1,44 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  
+    <h1 class="text-center text-primary mb-4">Lab 6</h1>
+    
+    <Bai1/>
+    <Bai2/>
+    <Bai3/>
+    <Bai4/>
+    <demo/>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<script setup>
+import { ref } from 'vue';
+
+import Bai1 from './components/Bai1.vue';
+import Bai2 from './components/Bai2.vue';
+import Bai3 from './components/Bai3.vue';
+import Bai4 from './components/Bai4.vue';
+import demo from './components/demo.vue';
+
+
+const currentTab = ref(1);
+</script>
+
+<style>
+
+body {
+  background-color: #f8f9fa;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+body, #app {
+  color: #000000 !important;
+  background-color: #ffffff; 
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+.text-primary {
+  color: #000000 !important; 
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+input, textarea, select {
+  color: #000000 !important;
 }
 </style>
